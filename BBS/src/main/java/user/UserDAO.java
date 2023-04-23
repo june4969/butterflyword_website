@@ -9,6 +9,7 @@ import java.sql.ResultSet;
 
 //JSP에서 회원 데이터베이스 테이블에 접근할 수 있도록 생성한다.
 //DAO = Data Access Object, 실질적으로 데이터베이스에서 회원정보를 관리, 처리할때 사용
+
 public class UserDAO {
 
 	
@@ -16,10 +17,10 @@ public class UserDAO {
 	//DB에 접근하게 해주는 객체
 	
 	private PreparedStatement pstmt; 
-	private ResultSet rs; 
-	//정보를 담을 객체
+	private ResultSet rs;  //정보를 담을 객체 
 	
-	public UserDAO() //객체생성
+	
+	public UserDAO() //데이터 접근객체, DB에 접근해서 데이터를 가져오거나 데이터를 넣는 역할을 하는 데이터 접근 객체이다
 	{
 		try
 		{
@@ -41,8 +42,36 @@ public class UserDAO {
 		}
 	}
 	// 위 코드까지가 MySQL DB에 접근할 수 있도록 설정하는 과정
+	
+	public int join(User user) {
+		String SQL= "INSERT INTO USER VALUES(?, ?, ?, ?, ?)";
+		
+		try{
+			pstmt = conn.prepareStatement(SQL);
+			pstmt.setString(1, user.getUserID());
+			pstmt.setString(2, user.getUserPassword());
+			pstmt.setString(3, user.getUserName());
+			pstmt.setString(4, user.getUserGender());
+			pstmt.setString(5, user.getUserEmail());
+			return pstmt.executeUpdate();
+			
+			
+			
+		} catch(Exception e) {
+			e.printStackTrace(); //예외처리
+		}
+		return -1; //데이터 베이스 오류
+	}
+	
+	
+	
+	
+	
+	
+	
     
-    //로그인 영역
+
+	//로그인 영역
 	public int login(String userID, String userPassword) 
 	{
 		String SQL = "SELECT userPassword FROM USER WHERE userID = ?";

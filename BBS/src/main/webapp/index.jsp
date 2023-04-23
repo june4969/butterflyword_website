@@ -8,7 +8,7 @@
 </head>
 <body>
 	<script>
-		location.href = "login.jsp"; //첫화면
+		location.href = "main.jsp"; //첫화면
 	</script>
 </body>
 </html>
