@@ -1,3 +1,10 @@
+# RESULT
+![Untitled (1)](https://github.com/june4969/JSP_Bulletin-Board/assets/127813398/bad7f052-b737-4827-b061-ac06a375182c)
+
+
+![Untitled (2)](https://github.com/june4969/JSP_Bulletin-Board/assets/127813398/f39e4832-cac6-406b-b799-9305266c6485)
+
+
 | 사용 언어 | JSP |
 | --- | --- |
 | 개발 도구 | 이클립스 |
