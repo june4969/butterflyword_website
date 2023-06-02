@@ -10,7 +10,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>JSP 게시판</title>
+<title>나비 월드</title>
 </head>
 <body>
 	<%
