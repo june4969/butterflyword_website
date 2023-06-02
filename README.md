@@ -2,7 +2,8 @@
 ![Untitled (1)](https://github.com/june4969/JSP_Bulletin-Board/assets/127813398/feb0502d-96f0-4495-be5a-c4c5bf7cc51b)
 
 
-![Untitled (2)](https://github.com/june4969/JSP_Bulletin-Board/assets/127813398/f39e4832-cac6-406b-b799-9305266c6485)
+![03](https://github.com/june4969/JSP_Bulletin-Board/assets/127813398/2d65ac1e-3b73-421b-bd1e-5f7d20ac6db4)
+![02](https://github.com/june4969/JSP_Bulletin-Board/assets/127813398/3a4ea37c-b4c6-4174-869a-7781bcbdf4b4)
 
 
 | 사용 언어 | JSP |
