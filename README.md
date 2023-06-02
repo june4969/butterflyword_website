@@ -1,5 +1,5 @@
 # RESULT
-![Untitled (1)](https://github.com/june4969/JSP_Bulletin-Board/assets/127813398/bad7f052-b737-4827-b061-ac06a375182c)
+![Untitled (1)](https://github.com/june4969/JSP_Bulletin-Board/assets/127813398/feb0502d-96f0-4495-be5a-c4c5bf7cc51b)
 
 
 ![Untitled (2)](https://github.com/june4969/JSP_Bulletin-Board/assets/127813398/f39e4832-cac6-406b-b799-9305266c6485)
