@@ -1,4 +1,4 @@
-# RESULT
+# 결과 이미지
 ![Untitled (1)](https://github.com/june4969/JSP_Bulletin-Board/assets/127813398/feb0502d-96f0-4495-be5a-c4c5bf7cc51b)
 
 
